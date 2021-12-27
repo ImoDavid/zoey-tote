@@ -1,0 +1,144 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: "montserrat";
+    font-weight: 900;
+}
+
+h5 {
+    font-family: "montserrat";
+    ;
+}
+
+p {
+    font-family: "ubuntu";
+}
+
+.brown {
+    background-color: rgb(225, 188, 140);
+}
+.brown:hover{
+    background-color: rgb(252, 176, 77) ;
+}
+
+.padded-container {
+    margin: 5px 0.1px;
+}
+
+.title-text {
+    text-align: center;
+    background-color: rgb(222, 184, 135);
+    border: 1px solid;
+
+    padding: 45px 5px;
+}
+
+.title-pic img {
+
+    width: 100%;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    padding: 10px;
+}
+
+.box1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.box2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.box3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.box4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#new-arrivals {
+    padding: 50px 10px;
+}
+
+.shop-now {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(252, 176, 77);
+}
+.collection{
+    border-top:5px dotted ;
+    border-bottom:5px dotted ;
+    margin:30px auto;
+    padding: 50px 100px;
+}
+.card-title{
+    font-family: "montserrat";
+    font-weight:600;
+}
+.testimonial{
+    margin:10px auto 50px ;
+    text-align: center;
+    background-color: rgb(252, 176, 77);
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+.carousel-items{
+      padding: 70px 190px;
+}
+
+
+@media screen and (max-width:800px) {
+    .title-text {
+        height: 20vh;
+        padding: 15px 5px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #new-arrivals {
+
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .collection{
+        border-top:3px dotted ;
+        border-bottom:3px dotted ;
+        margin:20px 0px;
+        padding: 0px;
+    }
+    .img-card{
+        margin:30px auto;
+        padding: 0px  0px;
+    }
+    .carousel-items{
+        font-weight: 500;
+        padding: 50px 30px;
+  }
+  .carousel-items h2{
+    font-size:20px
+}
+  .testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+  
+}
